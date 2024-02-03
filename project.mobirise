@@ -7,7 +7,7 @@
       "title": "StartM5",
       "titlePreset": "StartM5",
       "styling": {
-        "primaryColor": "#9fe870",
+        "primaryColor": "#60c1f8",
         "secondaryColor": "#ffd7ef",
         "successColor": "#3a341c",
         "infoColor": "#320707",
@@ -35,7 +35,8 @@
       "additionalSetColors": [
         "#1f1f1f",
         "#c6c6c6",
-        "#7f7f7f"
+        "#7f7f7f",
+        "#60c1f8"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -45,6 +46,11 @@
         "css": "'Zen Dots', display",
         "name": "Zen Dots",
         "url": "https://fonts.googleapis.com/css?family=Zen+Dots:400"
+      },
+      {
+        "css": "'Inter Tight', sans-serif",
+        "name": "Inter Tight",
+        "url": "https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
       }
     ],
     "robotsSwitcher": true,
@@ -90,13 +96,13 @@
           },
           "_name": "article12",
           "_sourceTheme": "startm5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"article12\" group=\"Article\">    \n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4 mt-0\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\">\n                SDF.</h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">The storytelling magic of photos\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Ваши цели направлены на создание реальной ценности, а не на обогащение за счет других. Вы стремитесь к децентрализованной финансовой системе в криптовалюте, где отсутствует централизация владения, а управление осуществляется коллективно. Вместо создания второго Уолл-стрит вы пропагандируете концепцию справедливости, прозрачности и равноправия.<br><br>Ваш подход к криптовалютам и децентрализации подразумевает сотрудничество и управление ресурсами сообществом. Эта стратегия направлена на построение устойчивой и инклюзивной финансовой среды, где каждый участник имеет возможность внести вклад и воспользоваться преимуществами системы.<br><br>Your goals are aimed at creating real value rather than enriching yourself at the expense of others. You strive for a decentralized financial system in cryptocurrency, where ownership is not centralized, and management is carried out collectively. Instead of creating a second Wall Street, you advocate for the concepts of fairness, transparency, and equality.<br><br>Your approach to cryptocurrencies and decentralization involves collaboration and community resource management. This strategy is aimed at building a sustainable and inclusive financial environment where every participant has the opportunity to contribute and benefit from the system.<br><br>你们的目标是创造真正的价值，而不是以牺牲他人为代价来获取财富。你们努力实现加密货币中的去中心化金融系统，其中所有权不集中，管理由集体来进行。你们倡导公平、透明和平等的概念，而不是创建第二个华尔街。<br><br>你们对加密货币和去中心化的方法涉及合作和社区资源管理。这一策略旨在构建可持续和包容的金融环境，使每个参与者都有机会为系统做出贡献并从中受益。<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"article12\" group=\"Article\">    \n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4 mt-0\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\">\n                SDF.</h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">The storytelling magic of photos\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Docs: <a href=\"https://docs.stabledfund.com\" class=\"text-primary\" target=\"_blank\">https://docs.stabledfund.com</a><br><br>Ваши цели направлены на создание реальной ценности, а не на обогащение за счет других. Вы стремитесь к децентрализованной финансовой системе в криптовалюте, где отсутствует централизация владения, а управление осуществляется коллективно. Вместо создания второго Уолл-стрит вы пропагандируете концепцию справедливости, прозрачности и равноправия.<br><br>Ваш подход к криптовалютам и децентрализации подразумевает сотрудничество и управление ресурсами сообществом. Эта стратегия направлена на построение устойчивой и инклюзивной финансовой среды, где каждый участник имеет возможность внести вклад и воспользоваться преимуществами системы.<br><br>Your goals are aimed at creating real value rather than enriching yourself at the expense of others. You strive for a decentralized financial system in cryptocurrency, where ownership is not centralized, and management is carried out collectively. Instead of creating a second Wall Street, you advocate for the concepts of fairness, transparency, and equality.<br><br>Your approach to cryptocurrencies and decentralization involves collaboration and community resource management. This strategy is aimed at building a sustainable and inclusive financial environment where every participant has the opportunity to contribute and benefit from the system.<br><br>你们的目标是创造真正的价值，而不是以牺牲他人为代价来获取财富。你们努力实现加密货币中的去中心化金融系统，其中所有权不集中，管理由集体来进行。你们倡导公平、透明和平等的概念，而不是创建第二个华尔街。<br><br>你们对加密货币和去中心化的方法涉及合作和社区资源管理。这一策略旨在构建可持续和包容的金融环境，使每个参与者都有机会为系统做出贡献并从中受益。<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "u3f3TiM7zS",
+          "_anchor": "article12-3",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "article12-3"
+          "_params": {}
         },
         {
           "alias": false,
